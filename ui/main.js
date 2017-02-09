@@ -1,5 +1,10 @@
 console.log('Loaded!');
 
 
-vae element = document.getelememtById("main-text");
+var element = document.getelememtById("main-text");
 element.innerHTMl= 'New value';
+var img=document.getElementById('img');
+img.onclick = function()
+{
+  img.style.marginLeft='100px'  
+};
